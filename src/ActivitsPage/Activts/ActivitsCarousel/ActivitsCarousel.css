@@ -1,0 +1,173 @@
+/* .activities-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px; 
+    scroll-behavior: smooth;
+    padding-bottom: 8px;
+  
+   
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .activities-carousel::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .activity-card {
+    flex: 0 0 calc(25% - 12px); 
+    min-width: calc(25% - 12px);
+  }
+  
+  @media (min-width: 768px) {
+    .activity-card.hovered {
+      transform: scale(1.05);
+      z-index: 3;
+    }
+  
+    .activity-card.hovered .overlay {
+      opacity: 1;
+    }
+  } */
+  
+
+  /* Inside <style>{` ... `} block */
+
+/* .activity-card {
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+  background-color: #333;
+}
+
+.activity-card .overlay {
+  background: rgba(0,0,0,0.4);
+  opacity: 0;
+  transition: opacity 0.3s;
+  border-radius: 1rem;
+}
+
+
+@media (min-width: 768px) {
+  .activity-card:hover {
+    transform: scale(1.05);
+    z-index: 3;
+  }
+
+  .activity-card:hover .overlay {
+    opacity: 1;
+  }
+}
+
+
+.activity-card.hovered {
+  transform: scale(1.05);
+  z-index: 3;
+}
+
+.activity-card.hovered .overlay {
+  opacity: 1;
+} */
+
+
+
+
+
+/* 
+.activities-carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  scroll-behavior: smooth;
+  padding-bottom: 8px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.activities-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.activity-card {
+  flex: 0 0 auto;
+  transition: transform 0.3s ease;
+  background-color: #333;
+  position: relative;
+  overflow: hidden;
+}
+
+.activity-card .overlay {
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 1rem;
+}
+
+.activity-card:hover {
+  transform: scale(1.05);
+  z-index: 2;
+}
+
+.activity-card:hover .overlay,
+.activity-card.hovered .overlay {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .activity-card.hovered {
+    transform: scale(1.05);
+    z-index: 2;
+  }
+} */
+
+
+
+  .activity-card {
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+    background-color: #333;
+  }
+  .activity-card .overlay {
+    background: rgba(0,0,0,0.4);
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 1rem;
+  }
+  .activity-card:hover {
+    transform: scale(1.05);
+    z-index: 3;
+  }
+  .activity-card:hover .overlay {
+    opacity: 1;
+  }
+
+  /* ✅ Hovered works for all screen sizes now */
+  .activity-card.hovered {
+    transform: scale(1.05);
+    z-index: 3;
+  }
+  .activity-card.hovered .overlay {
+    opacity: 1;
+  }
+
+/* 05/05/ */
+  .activities-carousel {
+    scroll-snap-type: x mandatory;
+  }
+  
+  .activity-card {
+    scroll-snap-align: center;
+  }
+  
+  .activities-carousel {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+  }
+  
+  .activities-carousel::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+  

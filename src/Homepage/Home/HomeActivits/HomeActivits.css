@@ -1,0 +1,319 @@
+
+/* .activity-card-wrapper {
+    position: relative;
+    overflow: visible;
+  }
+  
+
+  .activity-card {
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    transform-origin: center center;
+    background: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  .activity-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  
+
+  .activity-body {
+    background: rgba(245, 245, 245, 0.95);
+    padding: 1rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+  }
+  
+
+  .activity-card:hover {
+    transform: scale(1.05);
+    z-index: 10;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  }
+  
+  .activity-card:hover .activity-img {
+    transform: scale(1.1);
+  }
+  
+  .activity-card:hover .activity-body {
+    max-height: 300px;
+    opacity: 1;
+  } */
+
+
+  /* .activity-card-wrapper { */
+    /* position: relative;
+    overflow: visible;
+    width: 100%;
+    max-width: 320px; 
+    min-height: 450px; 
+    margin: auto; */
+
+    /* position: relative;
+  overflow: visible;
+  width: 100%;
+  max-width: 350px;    
+  min-height: 470px;
+  margin: auto;
+  } */
+  
+  /* Main card styling */
+  /* .activity-card {
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    transform-origin: center center;
+    background: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+  } */
+  
+  /* Image styles */
+/* .activity-img { */
+  /* width: 100%;
+  height: 280px;
+  object-fit: cover;
+  object-position: center; 
+  transition: transform 0.5s ease;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem; */
+  /* width: calc(100% + 60px);
+  margin: 0 -10px; */
+
+  /* keep your existing sizing & fit rules */
+  /* height: 280px;
+  object-fit: contain;
+  object-position: center;
+  transition: transform 0.5s ease; */
+
+  /* preserve your corner rounding */
+  /* border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+} */
+  
+  /* Card body initially hidden */
+  /* .activity-body {
+    background: rgba(245, 245, 245, 0.95);
+    padding: 1rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+  } */
+
+  /* .activity-body .card-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical; */
+    /* clamp to 5 lines; change “5” to “4” if you only want 4 lines */
+    /* -webkit-line-clamp: 5;
+    overflow: hidden;
+  } */
+  
+  /* Hover Effects */
+  /* .activity-card:hover {
+    transform: scale(1.05);
+    z-index: 10;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  } */
+  
+  /* .activity-card:hover .activity-img {
+    transform: scale(1.1);
+  }
+  
+  .activity-card:hover .activity-body {
+    max-height: 300px;
+    opacity: 1;
+    background-color: #d72634; */
+    /* #D81324;
+    #d72634
+    */
+    /* color: white;
+  } */
+
+
+ 
+  
+  /* .activity-card-wrapper {
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    max-width: 350px; 
+    min-height: 470px;
+    margin: auto;
+  }
+  
+
+  .activity-card {
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    transform-origin: center center;
+    background: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+
+  .activity-img {
+    width: calc(100% + 60px);
+    margin: 0 -10px;
+    height: 280px;
+    object-fit: contain;
+    object-position: center;
+    transition: transform 0.5s ease;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  
+
+  .activity-body {
+    background: rgba(245, 245, 245, 0.95); 
+    padding: 1rem;
+    transition: all 0.5s ease;
+    flex-grow: 1;
+  }
+  
+
+  .activity-body .card-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+  }
+  
+
+  .activity-card:hover {
+    transform: scale(1.05);
+    z-index: 10;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  }
+  
+  .activity-card:hover .activity-img {
+    transform: scale(1.1);
+  }
+  
+  .activity-card:hover .activity-body {
+    background-color: #d72634; 
+    color: white;
+  }
+  
+  .activity-card:hover .activity-body h5,
+  .activity-card:hover .activity-body p {
+    color: white;
+  } */
+  
+  .activity-card-wrapper {
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    max-width: 350px; 
+    min-height: 470px;
+    margin: auto;
+  }
+  
+  /* Main card styling */
+  .activity-card {
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    transform-origin: center center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+   
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  /* Image styles */
+  .activity-img {
+    width: calc(100% + 20px);
+    margin: 0 -10px;
+    height: 280px;
+    object-fit: contain;
+    object-position: center;
+    aspect-ratio: 6/8;
+    transition: transform 0.5s ease;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  
+  /* Card body styles */
+  .activity-body {
+    /* background: rgba(245, 245, 245, 0.95);  */
+    padding: 1rem;
+    transition: all 0.5s ease;
+    flex-grow: 1;
+    background: #e73f4d;
+    color: white;
+  }
+  
+  /* Clamp description to 5 lines */
+  .activity-body .card-text {
+    /* display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden; */
+    display: -webkit-box;
+    display: box; 
+    -webkit-box-orient: vertical;
+    box-orient: vertical; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    line-clamp: 5; 
+    line-height: 1.4rem;
+    max-height: calc(1.4rem * 7); /* 4 lines */
+    
+  }
+  
+  /* Hover and Touch Effects */
+  .activity-card:hover,
+  .activity-card.hovered {
+    transform: scale(1.05);
+    z-index: 10;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .activity-card:hover .activity-img,
+  .activity-card.hovered .activity-img {
+    transform: scale(1.1);
+  }
+  
+  .activity-card:hover .activity-body,
+  .activity-card.hovered .activity-body {
+    background-color: #d72634;
+    color: white;
+  }
+  
+  .activity-card:hover .activity-body h5,
+  .activity-card:hover .activity-body p,
+  .activity-card.hovered .activity-body h5,
+  .activity-card.hovered .activity-body p {
+    color: white;
+  }
+  
+
+
+
+  
+  
+  
+  
+  
