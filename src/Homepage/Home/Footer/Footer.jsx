@@ -96,7 +96,7 @@ const Footer = () => {
                   <p className="mb-2"><i className="fa fa-envelope me-3"></i>info@example.com</p>
                 </div>
 
-                <div className="d-flex justify-content-center gap-2 py-3 mt-auto">
+                <div className="d-flex gap-2 py-2 mt-auto">
                   <a className="btn btn-outline-light btn-social" href="#"><i className="fab fa-twitter"></i></a>
                   <a className="btn btn-outline-light btn-social" href="#"><i className="fab fa-facebook-f"></i></a>
                   <a className="btn btn-outline-light btn-social" href="#"><i className="fab fa-youtube"></i></a>
@@ -114,9 +114,9 @@ const Footer = () => {
               </div>
 
               {/* Services */}
-              <div className="col-lg-3 col-md-6">
+              <div className="col-lg-3 col-md-6 d-flex flex-column align-items-start">
                 <h4 className="text-light mb-4">Services</h4>
-                <div className="ps-5">
+                <div className="d-flex flex-column">
                   <a className="btn btn-link" href="#">Diagnostic Test</a>
                   <a className="btn btn-link " href="#">Engine Servicing</a>
                   <a className="btn btn-link " href="#">Tires Replacement</a>

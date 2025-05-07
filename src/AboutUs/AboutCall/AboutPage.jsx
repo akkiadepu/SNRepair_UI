@@ -10,9 +10,9 @@ const AboutPage = () => {
   return (
     <div>
       {/* AboutPage */}
-      <div>
+      {/* <div>
         <Header />
-      </div>
+      </div> */}
 
       <div>
         <AboutHeader />

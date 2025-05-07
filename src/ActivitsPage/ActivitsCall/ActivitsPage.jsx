@@ -9,9 +9,9 @@ const ActivitsPage = () => {
   return (
     <div>
       {/* ActivitsPage */}
-      <div>
+      {/* <div>
         <Header />
-      </div>
+      </div> */}
       <div>
         <ActivitsHeader />
       </div>

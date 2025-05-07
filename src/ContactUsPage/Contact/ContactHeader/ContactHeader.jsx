@@ -7,7 +7,7 @@ const ContactHeader = () => {
       {/* ContactHeader */}
          <div>
                 {/* <!-- Page Header Start --> */}
-                <div className="container-fluid page-header mb-5 p-0" style={{ backgroundImage: `url(${img})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                <div className="container-fluid page-header mb-5 p-0" style={{ backgroundImage: `url(${img})`, backgroundSize: 'cover', backgroundPosition: 'center',marginTop: '77px' }}>
                     <div className="container-fluid page-header-inner py-5">
                         <div className="container text-center">
                             <h1 className="display-3 text-white mb-3 animated slideInDown">Contact Us</h1>

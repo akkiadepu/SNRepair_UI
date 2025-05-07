@@ -17,9 +17,9 @@ const HomePage = () => {
     <div>
       {/* HomePage */}
 
-    <div>
+    {/* <div>
         <Header/>
-    </div>
+    </div> */}
     <div>
         <Carousel/>
     </div>

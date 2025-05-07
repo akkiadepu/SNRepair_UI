@@ -12,9 +12,9 @@ const RepaireServices = () => {
     <div>
       {/* RepaireServices */}
 
-      <div>
+      {/* <div>
         <Header/>
-      </div>
+      </div> */}
       <div>
         <RepaireServicesHeader/>
       </div>

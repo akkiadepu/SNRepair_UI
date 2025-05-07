@@ -8,10 +8,10 @@ const ContactPage = () => {
   return (
     <div>
       {/* ContactPage */}
-
+{/* 
       <div>
         <Header/>
-      </div>
+      </div> */}
       <div>
         <ContactHeader/>
       </div>

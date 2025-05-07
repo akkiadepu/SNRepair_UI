@@ -11,9 +11,9 @@ const WashingServices = () => {
   return (
     <div>
       {/* WashingServices */}
-      <div>
+      {/* <div>
         <Header/>
-      </div>
+      </div> */}
       <div>
         <WashingServicesHeader/>
       </div>

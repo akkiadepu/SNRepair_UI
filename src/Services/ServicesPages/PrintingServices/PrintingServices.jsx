@@ -11,7 +11,7 @@ const PrintingServices = () => {
   return (
     <div>
       {/* PrintingServices */}
-<div><Header/></div>
+{/* <div><Header/></div> */}
       
       <div>
         <ServicesHeader/>

@@ -54,58 +54,7 @@ const Header = () => {
 
 
 
-    <div>
-      {/* <!-- Navbar Start --> */}
-      {/* <nav className="navbar navbar-expand-lg bg-white navbar-light shadow fixed-top p-0">
-        <a href="index.html" className="navbar-brand d-flex align-items-center px-4 px-lg-5">
-          <h2 className="m-0 text-primary">
-            <i className="fa fa-car me-3"></i>CarServ
-          </h2>
-        </a>
-        <button
-          type="button"
-          className="navbar-toggler me-4"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse"
-          aria-controls="navbarCollapse"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          onClick={toggleNavbar}
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarCollapse">
-          <div className="navbar-nav ms-auto p-4 p-lg-0">
-            <Link to="/" className="nav-item nav-link " onClick={handleNavLinkClick}>Home</Link>
-            <Link to="/about" className="nav-item nav-link" onClick={handleNavLinkClick}>About</Link>
-            <Link to="/activities" className="nav-item nav-link" onClick={handleNavLinkClick}>activities</Link>
-            <div className="nav-item dropdown">
-              <a
-                href="#"
-                className="nav-link dropdown-toggle"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              
-              >
-                Services
-              </a>
-              <div className="dropdown-menu fade-up m-0">
-                <Link to="/Services/ServicesPages/RepaireServices" className="dropdown-item" onClick={handleNavLinkClick}>Body Repaire</Link>
-                <Link to="Services/ServicesPages/PrintingServices" className="dropdown-item" onClick={handleNavLinkClick}>Paiting</Link>
-             
-                <Link to="/Services/ServicesPages/WashingServices" className="dropdown-item" onClick={handleNavLinkClick}>Washing</Link>
-              </div>
-            </div>
-            <Link to="/contact" className="nav-item nav-link" onClick={handleNavLinkClick}>Contact Us</Link>
-          </div>
-          <Link to="https://wa.me/+919" className="btn btn-primary py-4 px-lg-5 d-none d-lg-block">
-            Send A Message<i className="fa fa-arrow-right ms-3"></i>
-          </Link>
-        </div>
-      </nav> */}
-      {/* <!-- Navbar End --> */}
-    </div>
+   
 
     <div>
       {/* Navbar Start */}

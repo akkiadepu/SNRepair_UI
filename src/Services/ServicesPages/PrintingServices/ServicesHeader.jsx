@@ -210,6 +210,7 @@ const ServicesHeader = () => {
       backgroundSize: "cover",
       backgroundPosition: "center center",
       backgroundRepeat: "no-repeat",
+      marginTop: '77px'
     }}
   >
     <div
