@@ -1,0 +1,2 @@
+npx create-react-app@latest rental-avenue-app
+to create a new react file
